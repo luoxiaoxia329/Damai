@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/cart.css"/>
+	</head>
+	<body>
+		<!--导航-->
+		<header>
+			<img src="img/damai1.png"/>
+			<img src="img/san.gif"/>
+			<span class="follow">北京</span>
+			<img src="img/di.gif"/>
+			<em><a href="">首页</a><a href="list-page.html">分类</a></em>
+			<form action="" method="post">
+				<input type="text" name="" id="" value="搜索明星、演出、体育赛事"/><label for=""></label>
+				<input type="button" value="搜索"/>
+			</form>
+			<ul>
+				<li>
+					<a href="land.html">登陆</a>
+					<i> <p><a href="">个人信息</a></p>
+						<p><a href="">账号设置</a></p>
+						<p><a href="">订单管理</a></p>
+					</i>
+				</li>
+				<li><a href="#">下载</a><img src="img/yzm.gif"/></li>
+				<li><a href="#">English</a></li>
+			</ul>
+		</header>
+		<!--媒体内容-->
+		<figure>
+			<!--每一个板块-->
+			<div class="figure">
+				 <center>
+		            <div class="good-list">
+		                <ul id="ul">
+		                    <li>
+		                        <img  src="imgs/1.jpg"/>
+		                        <p class="good-name" pid="shop001">消失的子弹</p>
+		                        <p class="good-pice">￥320</p>
+		                        <input type="button" value="加入购物车" class="addCar"/>
+		                    </li>
+		                    <li>
+		                        <img  src="imgs/3.jpg"/>
+		                        <p class="good-name" pid="shop002">第一滴血</p>
+		                        <p class="good-pice">￥230</p>
+		                        <input type="button" value="加入购物车" class="addCar"/>
+		                    </li>
+		                    <li>
+		                        <img  src="imgs/2.jpg"/>
+		                        <p class="good-name" pid="shop003">唐山大地震</p>
+		                        <p class="good-pice">￥5200.00</p>
+		                        <input type="button" value="加入购物车" class="addCar"/>
+		                    </li>
+		                    <li>
+		                        <img  src="imgs/4.jpg"/>
+		                        <p class="good-name" pid="shop004">最美的时光</p>
+		                        <p class="good-pice">￥180</p>
+		                        <input type="button" value="加入购物车" class="addCar"/>
+		                    </li>
+		                    <li>
+		                        <img  src="imgs/5.jpg"/>
+		                        <p class="good-name" pid="shop005">金陵十三钗</p>
+		                        <p class="good-pice">￥200</p>
+		                        <input type="button" value="加入购物车" class="addCar"/>
+		                    </li>
+		                </ul>
+		            </div>
+		            <br />
+		           
+		           <!-- <div class="shopping" align="right" style="float:right;margin-right:450px;position: relative;width: 50px;height: 50px;background: #FF3300;">
+		            	<span id="shopcar" style="position: absolute;top:12px;right: 15px;font-weight: bold;color: white;"></span>
+		            	<img src="img/shop.jpg" alt="" width="50" />
+		            </div>-->
+		                        商品名称：<input type="text" id="proname" />
+		            <input type="button" value="搜索" id="search" />
+		            <input type="button" value="全部显示" id="showAll" />
+		            <br><br><br><br>
+		            <div class="shopping">
+		                <table border=1 bordercolor="#CCC" cellspacing="0" id="tb">
+		                    <tr height=45><td width="10%"><input type="checkbox" value="全选"  id="isAllSelect"/> 全选</td>
+		                    <td width="15%">图片</td>
+		                    <td width="25%">名称</td>
+		                    <td width="15%">单价</td>
+		                    <td>操作</td></tr>
+		                    <tr id="endtr">
+		                        <td style="border-right: none;"><input type="button" value="删除选择" id="deleteAll"/></td>
+		                        <td style="border-left: none;" colspan="5" align="right">合计：￥<span id="totalSpan">0</span>
+		                            <input type="button" id="pay" value="结算"/>
+		                        </td>
+		                    </tr>
+		                </table>
+		            </div>
+		        </center>
+
+			</div>
+		</figure>
+		
+		<div class="clear"></div>
+		<!--链接对话框-->	
+		<footer>
+			<div class="">
+				<ul>
+					<li><a href="">帮助中心</a></li>
+					<li><a href="">公司介绍</a></li>
+					<li><a href="">品牌识别</a></li>
+					<li><a href="">公司大事记</a></li>
+					<li><a href="">协议及隐私</a></li>
+					<li><a href="">廉政举报</a></li>
+					<li><a href="">联系合作</a></li>
+					<li><a href="">招聘信息</a></li>
+					<li><a href="">防骗秘籍</a></li>
+				</ul>
+				<!--<div class="clear"></div>-->
+				<p>
+					<a href=""><img src="img/022.gif"/><img src="img/yzm.gif"/><br/><span>APP下载</span></a>
+					<h6 id="">在线客服</h6><br />
+					<ol>
+						<li>京ICP证031057号</li>
+						<li>京ICP备11043884号</li>
+						<li>京公网安备11010502037341号</li>
+						<li>广播电视节目制作经营许可证 (京)字第02253号网络文化经营许可证 京网文[2016]3438-413号|营业性演出许可证 京市演587号</li>
+						<li>营业性演出许可证 京市演587号</li>
+						<li>北京红马传媒文化发展有限公司 版权所有大麦网Copyright 2003-2018 All Rights Rese</li>
+						<li>举报投诉邮箱：damai_tousu@member.alibaba.com</li>
+					</ol>
+					<div class="img">
+						<img style="cursor:pointer;cursor:hand" class="footer__ft__img1" src="//img.alicdn.com/tfs/TB1gw_ZxNWYBuNjy1zkXXXGGpXa-131-32.gif" onclick="verifySeal();" alt="SSL site seal - click to verify" data-spm-anchor-id="a2o6e.home.0.i1.5b4d48d3mVzb2Z">
+						<img class="footer__ft__img2" alt="" src="//img.alicdn.com/tfs/TB1ZO80pyOYBuNjSsD4XXbSkFXa-141-41.png">
+						<img src="//img.alicdn.com/tfs/TB1Y580pyOYBuNjSsD4XXbSkFXa-83-50.png" class="footer__ft__img3">
+						<img src="//img.alicdn.com/tfs/TB1pM_ZxNWYBuNjy1zkXXXGGpXa-114-40.png" class="footer__ft__img4w">
+						<img class="footer__ft__img4" src="//img.alicdn.com/tfs/TB1C4nNxTlYBeNjSszcXXbwhFXa-114-42.png">
+					</div>
+					
+				</p>
+				
+				
+				
+			</div>
+			
+		</footer>
+		
+		
+		<!--侧边框-->
+		<div class="sidebar">
+			<div id=""><a href="#">在线客服</a></div>
+			<div id=""><a href="#">APP下载</a></div>
+			<div id=""><a href="#">回到顶部</a></div>
+		</div>
+	</body>
+</html>
+<!--<script src="js/first_page.js" type="text/javascript"></script>-->
+<script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+<script src="js/sport4.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+	/*
+	 功能分析：
+	 	1、页面加载后，取出storage中的数据，如果有数据就直接显示
+	 	2、点击按钮 添加功能
+	 	3、搜索、删除、数量统计等
+	 * */
+	function main() {
+		//1查找
+		var Oul = document.getElementsByTagName("ul")[0];
+		var tb = document.getElementById("tb");
+		//一 按钮添加数据
+		add();
+		function add() {
+			var json = {};
+			var arr = [];
+			Oul.addEventListener("click",function (e) {
+				var e = e || event;
+				var target = e.target || e.srcElement;
+				if (target.className == "addCar") {//事件委托  为按钮添加事件
+					var imgSrc = target.parentNode.children[0].src;
+					var pname = target.parentNode.children[1].innerHTML;
+					var pid = target.parentNode.children[1].getAttribute("pid");
+					var price = target.parentNode.children[2].innerHTML;
+					//存数据
+					json = {
+						pid: pid,
+						pname: pname,
+						src: imgSrc,
+						price: price
+					}
+					if (localStorage) {//如果库中有内容就转换成对象  传到数组中
+						if (localStorage.getItem("shoplist")) {
+							arr = JSON.parse(localStorage.getItem("shoplist"));
+						}
+					}
+					arr.push(json);
+					localStorage.setItem("shoplist", JSON.stringify(arr))
+					cloneH(imgSrc, pname, price, pid);
+				}
+			})
+		}
+		//二 页面加载显示存储数据
+		showAdd()
+		function showAdd() {
+			if (localStorage.getItem("shoplist")) {
+				if (localStorage.getItem("shoplist") != null) {
+					var shopArr = JSON.parse(localStorage.getItem("shoplist"));
+					shopArr.forEach((pro) => {
+						cloneH(pro.src, pro.pname, pro.price, pro.pid);
+					})
+				}
+			}
+		}
+		//三 dom元素的操作 同步显示列表
+		function cloneH(imgSrc, pname, price, pid) {
+			var cloneTr = tb.children[0].children[0].cloneNode(true);
+			tb.children[0].insertBefore(cloneTr, tb.children[0].lastElementChild);
+			cloneTr.children[0].innerHTML = "<input type='checkbox' name='isChecked'>";
+			cloneTr.children[1].innerHTML = `<img src='${imgSrc}' height=30>`;
+			cloneTr.children[2].innerHTML = pname;
+			cloneTr.children[3].innerHTML = price;
+			cloneTr.children[4].innerHTML = `<input type='button' value='删除' name='del' pid=${pid}>`;
+		}
+		//删除
+		dell()
+		function dell() {
+			tb.addEventListener("click" , function (e) {
+				var e = e || event;
+				var target = e.target || e.srcElement;
+				var pid = target.getAttribute("pid");
+				var shopArr = JSON.parse(localStorage.getItem("shoplist"));
+				if (target.name == "del") {
+					target.parentNode.parentNode.remove();
+					
+					for (var i = 0; i < shopArr.length; i++) {
+						if (pid == shopArr[i].pid) {
+							shopArr.splice(i, 1);
+							localStorage.setItem("shoplist", JSON.stringify(shopArr));
+							break;
+						}
+					}
+				} else if (target.id == "deleteAll") {
+					var allSele = document.getElementById("isAllSelect");
+					var cks = document.getElementsByName("isChecked");
+					
+					if (allSele.checked == true) {
+						for (var i = 0; i < cks.length; i++) {
+							if (cks[i].checked == true) {
+								var pid=cks[i].parentNode.parentNode.children[4].children[0].getAttribute("pid")
+								cks[i].parentNode.parentNode.remove();
+								i--;
+								for (let j = 0;j < shopArr.length; j++) {
+						           if (pid == shopArr[j].pid) {
+							      shopArr.splice(j, 1);
+						        }
+					          }
+							}	
+					   }
+					   allSele.checked=false;
+					    localStorage.setItem("shoplist", JSON.stringify(shopArr));
+					} else {
+						
+							for (var i = 0; i < cks.length; i++) {
+							if (cks[i].checked) {
+								var pid=cks[i].parentNode.parentNode.children[4].children[0].getAttribute("pid")
+								cks[i].parentNode.parentNode.remove();
+								i--;
+								for (let j = 0;j < shopArr.length; j++) {
+						           if (pid == shopArr[j].pid) {
+							      shopArr.splice(j, 1);
+						        }
+					          }
+							  }
+						    }
+							localStorage.setItem("shoplist", JSON.stringify(shopArr));
+					}
+				}
+			})
+
+		}
+		//五 搜索
+		searchF();
+		function searchF() {
+			search.onclick = function () {
+				var shopArr = JSON.parse(localStorage.getItem("shoplist"));
+				var subname = proname.value;
+				var newArr = shopArr.filter(function (pro) {
+					return pro.pname.indexOf(subname) > -1;
+				});
+				var trs = tb.children[0].children;//所有的tr
+				for (var i = trs.length - 2; i > 0; i--) {
+					trs[i].remove();
+				}
+				newArr.forEach((pro) => {
+					cloneH(pro.src, pro.pname, pro.price, pro.pid);
+				});
+			}
+		}
+		//六 价格统计
+		function allMoney() {
+			var money = 0;
+			var cks = document.getElementsByName("isChecked");
+			for (var i = 0; i < cks.length; i++) {
+				if (cks[i].checked) {
+					var allStr = cks[i].parentNode.parentNode.children[3].innerHTML;
+					var allS = parseFloat(allStr.substr(1))
+					money += allS;
+				}
+			}
+			totalSpan.innerHTML = money;
+		}
+
+		cksClick();//单选
+		function cksClick() {
+			var cks = document.getElementsByName("isChecked");
+			for (var i = 0; i < cks.length; i++) {
+				cks[i].onclick = function () {
+					allMoney();
+				}
+			}
+		}
+		allsele()//全选
+		function allsele() {
+			var allSele = document.getElementById("isAllSelect");
+			var cks = document.getElementsByName("isChecked");
+			allSele.onclick = function (e) {
+				if (allSele.checked) {
+					for (var i = 0; i < cks.length; i++) {
+						cks[i].checked = true;
+					}
+				} else {
+					for (var i = 0; i < cks.length; i++) {
+						cks[i].checked = false;
+					}
+				}
+				allMoney()//调用结算
+			}	
+		}
+		running();
+		function running(){
+			var index=0
+			Oul.addEventListener("click",function(e){
+                  index++;
+				var e=e||event;
+				var target=e.target||e.srcElement;
+				if(target.className=="addCar"){
+					target.style.position="relative";
+				    var ss=target.parentNode.children[0].cloneNode(true);
+					ss.style.position="absolute";
+					// ss.style.overflow="hidden";
+                      target.parentNode.appendChild(ss);
+			        
+				move(ss,{left:871,top:365,width:0,height:0})
+				}
+				shopcar.innerHTML=index;
+				shopcar.style.color="#000";
+			})
+		}
+
+	}
+	window.onload = main;
+</script>

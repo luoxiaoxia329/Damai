@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>详情页</title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/fdj2222.css"/>
+	</head>
+	<body>
+		<!--导航-->
+		<header>
+			<img src="img/damai1.png"/>
+			<img src="img/san.gif"/>
+			<span class="follow">北京</span>
+			<img src="img/di.gif"/>
+			<em><a href="">首页</a><a href="">分类</a></em>
+			<form action="" method="post">
+				<input type="text" name="" id="" value="搜索明星、演出、体育赛事"/><label for=""></label>
+				<input type="button" value="搜索"/>
+			</form>
+			<ul>
+				<li>
+					<a href="#">登陆</a>
+					<i> <p><a href="">个人信息</a></p>
+						<p><a href="">账号设置</a></p>
+						<p><a href="">订单管理</a></p>
+					</i>
+				</li>
+				<li><a href="#">下载</a><img src="img/yzm.gif"/></li>
+				<li><a href="#">English</a></li>
+			</ul>
+		</header>
+		
+		<figure>
+			<div id="box">
+				<div id="small" class="small">
+			         <img src="fdj/1m.jpg" alt="" id="mm"/> 
+			         <img src="fdj/2m.jpg" alt=""/> 
+			         <img src="fdj/3m.jpg" alt=""/> 
+			         <img src="fdj/4m.jpg" alt=""/>
+			         <div id="center"></div>
+			    	 <div id="mask"></div>   
+			    </div>
+			    <div id="big">
+					<img src="fdj/1b.jpg" class="bigImage"/>
+					<img src="fdj/2b.jpg" class="bigImage"/>
+					<img src="fdj/3b.jpg" class="bigImage"/>
+					<img src="fdj/4b.jpg" class="bigImage"/>
+				</div>
+				<ul id="bottom">
+			        <li><img src="fdj/1s.jpg" alt=""/></li>
+			        <li><img src="fdj/2s.jpg" alt=""/></li>
+			        <li><img src="fdj/3s.jpg" alt=""/></li>
+			        <li><img src="fdj/4s.jpg" alt=""/></li>
+			    </ul>
+				</div>
+		</figure>
+		<div id="cart" style="position: absolute; top:500px;left: 50px;background: #F52E95;"> <a href="cart.html">购物车</a></div>
+		
+		<div class="clear"></div>
+		<!--链接对话框-->	
+		<footer>
+			<div class="">
+				<ul>
+					<li><a href="">帮助中心</a></li>
+					<li><a href="">公司介绍</a></li>
+					<li><a href="">品牌识别</a></li>
+					<li><a href="">公司大事记</a></li>
+					<li><a href="">协议及隐私</a></li>
+					<li><a href="">廉政举报</a></li>
+					<li><a href="">联系合作</a></li>
+					<li><a href="">招聘信息</a></li>
+					<li><a href="">防骗秘籍</a></li>
+				</ul>
+				<!--<div class="clear"></div>-->
+				<p>
+					<a href=""><img src="img/022.gif"/><img src="img/yzm.gif"/><br/><span>APP下载</span></a>
+					<h6 id="">在线客服</h6><br />
+					<ol>
+						<li>京ICP证031057号</li>
+						<li>京ICP备11043884号</li>
+						<li>京公网安备11010502037341号</li>
+						<li>广播电视节目制作经营许可证 (京)字第02253号网络文化经营许可证 京网文[2016]3438-413号|营业性演出许可证 京市演587号</li>
+						<li>营业性演出许可证 京市演587号</li>
+						<li>北京红马传媒文化发展有限公司 版权所有大麦网Copyright 2003-2018 All Rights Rese</li>
+						<li>举报投诉邮箱：damai_tousu@member.alibaba.com</li>
+					</ol>
+					<div class="img">
+						<img style="cursor:pointer;cursor:hand" class="footer__ft__img1" src="//img.alicdn.com/tfs/TB1gw_ZxNWYBuNjy1zkXXXGGpXa-131-32.gif" onclick="verifySeal();" alt="SSL site seal - click to verify" data-spm-anchor-id="a2o6e.home.0.i1.5b4d48d3mVzb2Z">
+						<img class="footer__ft__img2" alt="" src="//img.alicdn.com/tfs/TB1ZO80pyOYBuNjSsD4XXbSkFXa-141-41.png">
+						<img src="//img.alicdn.com/tfs/TB1Y580pyOYBuNjSsD4XXbSkFXa-83-50.png" class="footer__ft__img3">
+						<img src="//img.alicdn.com/tfs/TB1pM_ZxNWYBuNjy1zkXXXGGpXa-114-40.png" class="footer__ft__img4w">
+						<img class="footer__ft__img4" src="//img.alicdn.com/tfs/TB1C4nNxTlYBeNjSszcXXbwhFXa-114-42.png">
+					</div>
+					
+				</p>
+				
+				
+				
+			</div>
+			
+		</footer>
+		
+		
+		<!--侧边框-->
+		<aside></aside>
+	</body>
+</html>
+<script src="js/com.js" type="text/javascript"></script>
+<!--<script src="js/sho_pfdj.js" type="text/javascript"></script>-->
+<script type="text/javascript">
+  function Show(){
+  	//获取元素
+  	this.box = document.getElementById("box");
+  	this.small = document.getElementById("small");
+  	this.smallImg = this.small.getElementsByTagName("img");
+  	this.big = document.getElementById("big");
+  	this.bigImg = document.getElementById("big").children;
+  	this.bot = document.getElementById("bottom").children;
+  	this.center= document.getElementById("center");
+  	this.mask= document.getElementById("mask");
+  	this.index = 0;
+  
+  //选项卡
+	this.tab = function(){
+	  	for(let i= 0;i<this.bot.length;i++){
+	  		this.bot[i].onmouseenter = function(){
+				this.index = i; 
+				this.clearAll();
+				this.small.children[i].style.display="block";
+				this.bigImg[i].style.display="block";
+				this.mask.style.backgroundImage=`url(fdj/${this.index+1}m.jpg)`;
+	  		}.bind(this)
+	  	}
+	  	
+	}
+	//排他
+  	this.clearAll = function(){
+  		for (let j = 0;j<this.bigImg.length;j++) {
+  			this.small.children[j].style.display="none";
+			this.bigImg[j].style.display ="none";
+  		}
+  	}	
+  	//鼠标移入移出到中图区域 显示和隐藏mask 和big
+  	this.bindnM = function(){
+  		this.small.onmouseenter = function(){
+  			this.big.style.display ="block";
+			this.mask.style.display="block";
+  		}.bind(this)
+  		this.small.onmouseleave = function(){
+  			this.big.style.display ="none";
+			this.mask.style.display="none";
+  		}.bind(this)
+  	}
+  	//mask移动
+  	this.loupeMove = function(){
+  		this.small.onmousemove = function(e){
+  			var e = e||event;
+			//获取mask的left 和top
+			let x =e.pageX-this.mask.offsetWidth/2-this.box.offsetLeft;
+			let y =e.pageY-this.mask.offsetHeight/2-this.box.offsetTop;
+			//获取mask的最大left和top值
+			let maskL = this.small.offsetWidth-this.mask.offsetWidth;
+			let maskT = this.small.offsetHeight-this.mask.offsetHeight;
+			//边界处理
+		  /*x= x<0?0:(x>maskL?maskL:x);
+			y= y<0?0:(y>maskT?maskT:y);*/
+			x = Math.min(Math.max(0,x),maskL);
+			y = Math.min(Math.max(0,y),maskT);
+			//设置mask的值
+			this.mask.style.left = x+"px";
+			this.mask.style.top = y+"px";
+			this.mask.style.backgroundPositionX = -x + "px";
+			this.mask.style.backgroundPositionY = -y + "px";
+			
+			//大图的移动
+			for (let i = 0;i<this.bigImg.length;i++) {
+				if(this.bigImg[i].className = "bigImage"){
+					//获取每一个大图的left和top值
+					let bigImgX= x*(this.bigImg[i].offsetWidth)/(this.smallImg[i].offsetWidth);
+					let bigImgY= y*(this.bigImg[i].offsetHeight)/(this.smallImg[i].offsetHeight);
+					this.bigImg[i].style.left =-bigImgX+"px"; 
+					this.bigImg[i].style.top =-bigImgY+"px"; 
+				}
+			}
+			//设置大图的left 和top 值 需要具备以下比例关系
+			
+  		}.bind(this)
+  	}
+  	
+}
+  
+  window.onload =function(){
+  	var show = new Show();
+  	show.tab();
+  	show.bindnM();
+  	show.loupeMove();
+  }
+	
+</script>
+

@@ -1,0 +1,61 @@
+
+			
+			section>p{
+				width: 100%;
+				height: 400px;
+				margin: 0 auto;
+				position: relative;
+			}
+			section>p>img{
+				width: 100%;
+				height: 400px;
+				margin: 0 auto;
+			}
+			
+			
+			/**/
+			.sign{
+				text-align: center;
+				margin: 0 auto;
+				margin-top:50px;
+				height: 350px;
+				width: 400px;
+				border: 1px solid #666;
+				position: absolute;
+				top:50px;
+				left: 785px;
+				background: white url(../images/bj.png) no-repeat 20px 230px;
+			}
+			.sign>.sign1>h4{
+				width: 133px;
+				font-size:16px;
+				background: #CDCDD0;
+				height: 50px;
+				line-height: 50px;
+				float: left;
+				font-weight: normal;
+				
+			}
+			.sign>.sign1>h4:hover{
+				border-top:2px solid #F52E95;
+				background: white;
+			}
+			.sign>form>input{
+				height: 20px;
+				width:200px;
+				margin-top: 5px;
+				text-align: left;
+			}
+			.sign>form>label{
+				float: left;
+				margin-left: 20px;
+			}
+			.sign>form>label>input{
+				height: 20px;
+				background:indianred;
+				border: none;
+			}
+			
+			
+			
+

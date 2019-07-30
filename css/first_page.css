@@ -1,0 +1,258 @@
+		
+			/*二级菜单*/
+			header .follow1{
+				display: none;
+				height: 600px;
+			    width: 626px;
+			    z-index: 10;
+			    left: 90px;
+			    top: 0;
+			    margin-top: 60px;
+			    background: #FFF;
+			    border: 1px solid #F4F4F4;
+			    box-shadow: 0 2px 8px 0 rgba(0,0,0,.05);
+			    border-radius: 2px;
+			    padding: 5px;
+				position: absolute;
+				font-size: 10px;
+			}
+			header .follow1>div>span{
+				text-align: left;
+				height: 50px;
+			    width: 60px;
+			    font-size: 10px;
+			    color: black;
+			    text-align: center;
+			    line-height: 50px;
+			    
+			}
+			/*header .follow1>div>span:hover{
+				background: #F52E95;
+			    
+			}*/
+			header .follow1>div>i{
+				text-align: left;
+				height: 50px;
+			    width: 60px;
+			    font-size: 10px;
+			    color: black;
+			    
+			}
+			header .follow1>div:nth-child(1){
+				height: 50px;
+			    width: 626px;
+			}
+			header .follow1>div:nth-child(2){
+				height: 150px;
+			    width: 626px;
+			}
+			header .follow1>div:nth-child(3){
+				height: 500px;
+			    width: 626px;
+			}
+			section{
+				height: 320px;
+				width: 1200px;
+				margin: 0 auto;
+				/*overflow: hidden;*/
+				border:  1px solid #cdcdd0;
+				position: relative;
+				margin-bottom: 10px;
+				overflow: hidden;
+			}
+			section ul{
+				width: 9600px;
+				
+			}
+			section ul li{
+				width: 1200px;
+				float: left;
+			}
+			section ol{
+				position: absolute;
+				top:280px;
+				left: 1000px;
+				
+			}
+			section ol li{
+				margin: 3px;
+				float: left;
+				width: 15px;
+				height: 15px;
+				border: 1px solid #cdcdd0;
+				background: #abc;;
+				border-radius: 50%;
+				text-align: center;
+				line-height: 15px;
+				/*border-color: rgba(10,10,10,0.5);*/
+			}
+			section ol li.current{
+	            background-color: pink;
+	        }
+			nav{
+				height: 118px;
+				width: 1200px;
+				border: 1px solid #cdcdd0;
+				margin: 0 auto;
+				overflow: hidden;
+				margin-bottom: 10px;
+			}
+			nav ul{
+				
+				margin-top: 10px;
+				/*border:  1px solid blue;*/
+				width: 1220px;
+			}
+			nav ul li{
+				float: left;
+				width: 120px;
+				/*border: 1px solid red;*/
+				text-align: center;
+				margin-top: 20px;
+			}
+			nav ul li a{
+				display:block;
+				margin: 10px;
+				color: black;
+			}
+			nav ul li a:hover{
+				color: #f52e95;
+			}
+			/*中间内容*/
+			figure{
+				width: 1200px;
+				height: auto;
+				margin:  0 auto;
+				
+			}
+			figure .figure{
+				border: 1px solid #cdcdd0;
+				height: 460px;
+				margin-bottom: 10px;
+			}
+			/*左*/
+			figure .figure .left{
+				width: 290px;
+				/*border: 1px solid red;*/
+				margin: 25px 0 5px 5px;
+				float: left;
+				position: relative;
+			}
+			figure .figure .left>h2>a{
+				color: black;
+				margin-left: 30px;
+				font-weight: normal;
+				overflow: hidden;
+			}
+			figure .figure .left>a>img{
+				float: right;
+				margin-top:15px ;
+				width: 260px;
+				height: 355px;
+				
+			}
+			figure .figure .left p{
+				width: 260px;
+				height: 120px;
+				background-color: rgba(0,0,0,.5);
+				position: absolute;
+				left: 30px;
+				top:282px;
+				        : 0.5;
+			}
+			figure .figure .left p span{
+				margin-top: 10px;
+				display: block;
+				padding-bottom: 40px;
+				padding-left:5px ;
+			}
+			figure .figure .left p i{
+				padding-left: 5px;
+				font-style: normal;
+			}
+			figure .figure .left p a{
+				color: white;
+			}
+			figure .figure .left p a:hover{
+				color: #f52e95;
+			}
+			/*右*/
+			figure .figure .right{
+				float: left;
+				/*border: 1px solid red;*/
+				height: 400px;
+				width: 847px;
+				overflow: hidden;
+				margin-top: 25px;
+				margin-left: 10px;
+			}
+			figure .figure .right a{
+				display: block;
+				height: 15px;
+				width: 130px;
+				float: left;
+				margin-bottom: 20px;
+				margin-left: 2px;
+			}
+			figure .figure .right h3{
+				float: right;
+				font-size: 14px;
+				color: #333;
+				margin-bottom: 20px;
+			}
+			figure .figure .right h3 a{
+				color: #cdcdd0;
+			}
+			figure .figure .right ul{
+				width: 847px;
+				float: left;
+				
+			}
+			figure .figure .right ul li{
+				width: 264px;
+				height: 160px;
+				float: left;
+				margin: 5px 5px 30px 10px;
+			}
+			figure .figure .right ul li img{
+				float: left;
+				margin-right:5px;
+				width: 120px;
+				height: 160px;
+			}
+			figure .figure .right ul li h4{
+				float: left;
+				font-size: 10px;
+				margin-bottom: 10px;
+			}
+			figure .figure .right>ul>li>h4>a{
+				color: black;
+				/*font-weight: normal*/
+			}
+			figure .figure .right>ul>li>h4:hover a{
+				color: #F52E95
+				/*font-weight: normal*/
+			}
+			figure .figure .right ul li h5{
+				margin-top: 20px;
+				font-size: 10px;
+				/*color: #CDCDD0;*/
+			}
+			figure .figure .right ul>li>h5>a{
+				color: #CDCDD0;
+				display: block;
+				height: 20px;
+			}
+			figure .figure .right ul li h5:hover a{
+				color: #F52E95;
+			}
+			figure .figure .right>ul>li>h6{
+				font-size: 16px;
+				display: inline;
+				padding-top:40px;
+				/*font-weight: normal*/
+			}
+			figure .figure .right>ul>li>h6>a{
+				color: #f792f1;
+			}
+			

@@ -1,0 +1,114 @@
+			figure{
+				width: 1200px;
+				height: auto;
+				margin:  0 auto;
+				
+			}
+			figure .figure{
+				border: 1px solid #cdcdd0;
+				height: 460px;
+				margin-bottom: 10px;
+			}
+			/*左*/
+			figure .figure #left{
+				margin: 25px 0 5px 5px;
+				float: left;
+				position: relative;
+				width: 350px;
+				height: 350px;
+				border: 1px solid black;
+			}
+			
+			/*右*/
+			figure .figure .right{
+				float: left;
+				/*border: 1px solid red;*/
+				height: 400px;
+				width: 290px;
+				/*overflow: hidden;*/
+				margin-top: 25px;
+				margin-left:50px;
+			}
+			figure .figure .right h3{
+				float: right;
+				font-size: 14px;
+				color: #333;
+				margin-bottom: 20px;
+			}
+			figure .figure .right h3 a{
+				position: fixed;  
+	            right:28px;  
+	            top: 12px;  
+	            color: red; 
+			}
+			figure .figure .right ul{
+				width: 290px;
+				float: left;
+				
+			}
+			figure .figure .right ul li{
+				width: 264px;
+				height: 160px;
+				float: left;
+				margin: 5px 5px 30px 10px;
+			}
+			figure .figure .right ul li img{
+				float: left;
+				margin-right:5px;
+			}
+			figure .figure .right ul li h4{
+				float: left;
+				font-size: 10px;
+			}
+			figure .figure .right ul li h4 a{
+				color: black;
+				font-weight: normal
+			}
+			figure .figure .right ul li h5{
+				margin-top: 30px;
+				font-size: 10px;
+				color: #CDCDD0;
+			}
+			figure .figure .right ul li h5 a{
+				color: #CDCDD0;
+			}
+			figure .figure .right ul li>h6{
+				position: fixed; 
+				top:300px;
+				left: 700px;
+				text-align: center;
+				background: #F52E95;
+				font-size: 16px;
+				margin-top: 90px;
+				margin-left: 90px;
+			}
+		
+		#small{
+			position: relative;
+		}
+		#mask{
+			width: 175px;
+			height: 175px;
+			position: absolute;
+			left: 0;
+			top: 0;
+			background: red;
+			opacity: .3;
+			cursor: move;
+			/*display: none;*/
+		}
+		#big{
+			width: 400px;
+			height: 400px;
+			border: 1px solid black;
+			position: absolute;
+			top: 0;
+			left: 360px;
+			overflow: hidden;
+			/*display: none;*/
+		}
+		#bigImg{
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
